@@ -6,7 +6,7 @@ Future<String> chatConversation(
   String systemMessage,
   List<String> conversationHistory,
 ) async {
-  final apiKey = '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';
+  final apiKey = '';
   String apiUrl = 'https://api.openai.com/v1/chat/completions';
 
   // Update conversation history with the new user message
