@@ -4,7 +4,7 @@ import 'package:teledart/teledart.dart';
 import 'package:teledart/telegram.dart';
 
 Future<void> main() async {
-  const String token = "6762967072:AAE2TuCxZPSOD2ROZFcDmOkqFlqfJVpjiBA";
+  const String token = "";
   const int adminId = 6559889263;
   final username = (await Telegram(token).getMe()).username;
   var teledart = TeleDart(token, Event(username!));
